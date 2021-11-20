@@ -3,12 +3,12 @@
     "best_params": {
         "algorithm": "SAMME.R",
         "base_estimator": null,
-        "learning_rate": 0.3,
-        "n_estimators": 1000
+        "learning_rate": 0.5,
+        "n_estimators": 100
     },
     "best_model_scores": [
-        0.9736013285428284,
-        0.9734185514102047
+        0.973376603356567,
+        0.9753301516707487
     ],
-    "runtime_mins": 11.663252671559652
+    "runtime_mins": 7.9833927869796755
 }

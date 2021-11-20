@@ -1,0 +1,14 @@
+{
+    "model": "AdaBoostClassifier",
+    "best_params": {
+        "algorithm": "SAMME",
+        "base_estimator": null,
+        "learning_rate": 0.3,
+        "n_estimators": 1000
+    },
+    "best_model_scores": [
+        0.9662330469351547,
+        0.9626780711049588
+    ],
+    "runtime_mins": 9.030767476558685
+}

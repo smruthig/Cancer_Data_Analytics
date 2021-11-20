@@ -1,0 +1,17 @@
+{
+    "model": "SVC",
+    "best_params": {
+        "C": 0.2,
+        "coef0": 0.5,
+        "degree": 2,
+        "gamma": "auto",
+        "kernel": "linear",
+        "shrinking": true,
+        "tol": 0.0001
+    },
+    "best_model_scores": [
+        0.97331458198058,
+        0.9769906224449305
+    ],
+    "runtime_mins": 14.601275344689688
+}

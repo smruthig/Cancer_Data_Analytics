@@ -1,0 +1,15 @@
+{
+    "model": "LogisticRegression",
+    "best_params": {
+        "C": 0.4,
+        "dual": true,
+        "penalty": "l2",
+        "solver": "liblinear",
+        "tol": 1
+    },
+    "best_model_scores": [
+        0.9788362536795174,
+        0.9822658834329882
+    ],
+    "runtime_mins": 0.21085375547409058
+}

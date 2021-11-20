@@ -1,0 +1,16 @@
+{
+    "model": "KNeighborsClassifier",
+    "best_params": {
+        "algorithm": "auto",
+        "leaf_size": 1,
+        "metric": "euclidean",
+        "n_neighbors": 5,
+        "p": 1,
+        "weights": "uniform"
+    },
+    "best_model_scores": [
+        0.9662616933000928,
+        0.9677569416823157
+    ],
+    "runtime_mins": 8.653524430592855
+}
