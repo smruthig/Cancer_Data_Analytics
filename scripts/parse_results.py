@@ -19,3 +19,4 @@ for filename in filenames:
 df.sort_values(by=["F1-Stratified"], ascending=False,
                inplace=True, ignore_index=True)
 print(df)
+df.to_csv("models_results.csv")

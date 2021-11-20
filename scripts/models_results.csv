@@ -1,0 +1,25 @@
+,Model,F1-Stratified,F1,Runtime
+0,"LogisticRegression_Namespace(cv_split=15, normalize=None, pca=None, standardize=True)",0.9822658834329882,0.9769856543304661,0.25447479883829754
+1,"LogisticRegression_Namespace(cv_split=15, normalize=None, pca=15, standardize=True)",0.9822658834329882,0.9788362536795174,0.21085375547409058
+2,"LogisticRegression_Namespace(cv_split=15, normalize=True, pca=None, standardize=True)",0.9805682022690405,0.9805839468095783,0.19076405763626098
+3,"LogisticRegression_Namespace(cv_split=15, normalize=True, pca=15, standardize=True)",0.9805651998910618,0.9805727114098718,0.17898232142130535
+4,"SVC_Namespace(cv_split=15, normalize=True, pca=15, standardize=True)",0.9770564279612373,0.9788067410915595,16.57333895365397
+5,"SVC_Namespace(cv_split=15, normalize=None, pca=None, standardize=True)",0.9769906224449305,0.97331458198058,14.601275344689688
+6,"SVC_Namespace(cv_split=15, normalize=None, pca=15, standardize=True)",0.9753561545919867,0.9804575303186347,13.809112977981567
+7,"AdaBoostClassifier_Namespace(cv_split=15, normalize=None, pca=15, standardize=True)",0.9753301516707487,0.973376603356567,7.9833927869796755
+8,"AdaBoostClassifier_Namespace(cv_split=15, normalize=None, pca=None, standardize=True)",0.975077238961282,0.9822341324003662,12.376949187119802
+9,"AdaBoostClassifier_Namespace(cv_split=15, normalize=True, pca=None, standardize=True)",0.9734185514102047,0.9736013285428284,12.309463834762573
+10,"RandomForestClassifier_Namespace(cv_split=15, normalize=None, pca=None, standardize=True)",0.971656588136835,0.9646814254137743,515.5935302297274
+11,"SVC_Namespace(cv_split=15, normalize=True, pca=None, standardize=True)",0.9700302339088566,0.9735035113294094,19.984804483254752
+12,"neuralnetwork_Namespace(cv_split=15, normalize=None, pca=15, standardize=True)",0.9688874069667543,0.9673556479830991,5.428934212525686
+13,"KNeighborsClassifier_Namespace(cv_split=15, normalize=True, pca=15, standardize=True)",0.9680020754384434,0.9663747509603979,8.652660103638967
+14,"KNeighborsClassifier_Namespace(cv_split=15, normalize=None, pca=15, standardize=True)",0.9677569416823157,0.9662616933000928,8.653524430592855
+15,"KNeighborsClassifier_Namespace(cv_split=15, normalize=None, pca=None, standardize=True)",0.9677569416823157,0.9680072758945718,10.24258154630661
+16,"neuralnetwork_Namespace(cv_split=15, normalize=None, pca=None, standardize=True)",0.9668987489528834,0.9643122920008348,5.278209288914998
+17,"neuralnetwork_Namespace(cv_split=15, normalize=True, pca=None, standardize=True)",0.9665885563920419,0.9681959382767851,5.248625894387563
+18,"neuralnetwork_Namespace(cv_split=15, normalize=True, pca=15, standardize=True)",0.9647823951272229,0.9717129592473437,5.785016111532847
+19,"KNeighborsClassifier_Namespace(cv_split=15, normalize=True, pca=None, standardize=True)",0.9645343174399362,0.9662336496319549,10.39245777130127
+20,"AdaBoostClassifier_Namespace(cv_split=15, normalize=True, pca=15, standardize=True)",0.9626780711049588,0.9662330469351547,9.030767476558685
+21,RandomForestClassifier,0.955659528956774,0.9646676024536627,501.4137027661006
+22,"neuralnetwork_Namespace(cv_split=15, normalize=True, pca=5, standardize=None)",0.8939672621971474,0.8935002339996193,5.5621109247207645
+23,"neuralnetwork_Namespace(cv_split=15, normalize=True, pca=None, standardize=None)",0.8835063786787926,0.8798091087055435,5.470446228981018
