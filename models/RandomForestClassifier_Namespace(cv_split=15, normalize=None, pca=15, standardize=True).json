@@ -1,0 +1,16 @@
+{
+    "model": "RandomForestClassifier",
+    "best_params": {
+        "bootstrap": true,
+        "criterion": "entropy",
+        "max_features": null,
+        "min_samples_leaf": 1,
+        "min_samples_split": 8,
+        "n_estimators": 50
+    },
+    "best_model_scores": [
+        0.9576353755864582,
+        0.9611949046171628
+    ],
+    "runtime_mins": 393.0221023956935
+}

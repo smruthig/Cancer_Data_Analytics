@@ -1,0 +1,16 @@
+{
+    "model": "RandomForestClassifier",
+    "best_params": {
+        "bootstrap": false,
+        "criterion": "gini",
+        "max_features": "auto",
+        "min_samples_leaf": 4,
+        "min_samples_split": 10,
+        "n_estimators": 50
+    },
+    "best_model_scores": [
+        0.9517059146715531,
+        0.9499333658851676
+    ],
+    "runtime_mins": 404.8365050315857
+}
