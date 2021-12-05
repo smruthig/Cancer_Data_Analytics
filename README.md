@@ -91,13 +91,13 @@ python3 neuralnetwork.py
 6. Run any notebook by executing all the code cells.
 
 ## About 
-Breast cancer is a prevalent incursive cancer
-among women. It is one among the primary causes of death related to cancer,
-which can be classified as Malignant or Benign.
-Breast cancer diagnosis is time consuming and due to its gravity, it is imperative to design a solution to automate the process of identification of the same in its early stages so that it can be treated efficiently. Breast Cancer prediction aims at extracting features from the given samples and predicting it as Benign or Malignant. The dataset chosen is extracted from the Wisconsin Breast Cancer Dataset. This implementation compares six basic models namely, Logistic Regression, SVC, AdaBoost, Neural Network Nearest Neighbours and Random Forest through performance metrics like, F1-score and F1-stratified score. The results reveal that the highest performing model for this problem statement is Logistic Regression with an F1-score of 0.9788 and F1-stratified score of 0.9822.
+Breast cancer is a prevalent incursive cancer among women. It is one among the primary causes of death related to cancer,
+which can be classified as Malignant or Benign. Breast cancer diagnosis is time consuming and due to its gravity, it is imperative to design a solution to automate the process of identification of the same in its early stages so that it can be treated efficiently. Breast Cancer prediction aims at extracting features from the given samples and predicting it as Benign or Malignant. The dataset chosen is extracted from the Wisconsin Breast Cancer Dataset. This implementation compares six basic models namely, Logistic Regression, SVC, AdaBoost, Neural Network Nearest Neighbours and Random Forest through performance metrics like, F1-score and F1-stratified score. The results reveal that the highest performing model for this problem statement is Logistic Regression with an F1-score of 0.9788 and F1-stratified score of 0.9822.
 
 ## Dataset
 The dataset that has been used in our project is The Wisconsin Breast Cancer Dataset (WBCD),  acquired from the repository of UCI Machine learning, is a benchmark dataset. The dataset is distributed over 37.25\% cancerous samples and 62.75\% non-cancerous samples.
+The Wisconsin Breast cancer Dataset contains 569 instances and 32 features that provide accurate information regarding the
+diagnosis of breast cancer. The columns of the dataset represent the features of the cell nuclei found in the digitised image of fine needle aspirates (FNA) of breast mass.
 
 ## Predictive Modelling
 
