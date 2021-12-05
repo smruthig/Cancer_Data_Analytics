@@ -131,4 +131,10 @@ Since the dataset is small, we use both -
 This is to ensure that within each fold the number of positive and negative examples are equal. We measure our classifier’s performance across each split and finally take the mean of the performance achieved.
 
 ## Model Results
-
+|                      | Accuracy | F1 score | RocAucScore | MSE      |
+|----------------------|----------|----------|-------------|----------|
+| Logisitic Regression | 0.982456 | 0.974359 | 0.980513    | 0.132453 |
+| SVC                  | 0.991228 | 0.987342 | 0.9875      | 0.093689 |
+| Adaboost             | 0.964912 | 0.95     | 0.956565    | 0.187317 |
+| Random Forest        | 0.973684 | 0.962025 | 0.968243    | 0.16221  |
+| KNN                  | 0.973684 | 0.961039 | 0.973684    | 0.162221 |
