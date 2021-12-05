@@ -103,6 +103,11 @@ The dataset that has been used in our project is The Wisconsin Breast Cancer Dat
 
 This study's primary aim is binary classification of the given samples of cell nuclei as benign or malignant.
 
+Grid Search was performed on all models to find out the best parameters, with various combinations of preprocessing.
+PCA was performed to reduce the dimensionality of the dataset. 
+Various preprocessing combinations were tried out with every model to determine the best results. 
+Logistic Regression with preprocessing as standardization and PCA gave the best results with F1 score as 98% on the dataset. 
+
 The six models used are
 
 1. Support Vector Machine
