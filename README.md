@@ -90,11 +90,18 @@ python3 neuralnetwork.py
 
 6. Run any notebook by executing all the code cells.
 
-## About the problem statement
+## About 
+Breast cancer is a prevalent incursive cancer
+among women. It is one among the primary causes of death related to cancer,
+which can be classified as Malignant or Benign.
+Breast cancer diagnosis is time consuming and due to its gravity, it is imperative to design a solution to automate the process of identification of the same in its early stages so that it can be treated efficiently. Breast Cancer prediction aims at extracting features from the given samples and predicting it as Benign or Malignant. The dataset chosen is extracted from the Wisconsin Breast Cancer Dataset. This implementation compares six basic models namely, Logistic Regression, SVC, AdaBoost, Neural Network Nearest Neighbours and Random Forest through performance metrics like, F1-score and F1-stratified score. The results reveal that the highest performing model for this problem statement is Logistic Regression with an F1-score of 0.9788 and F1-stratified score of 0.9822.
 
 ## Dataset
+The dataset that has been used in our project is The Wisconsin Breast Cancer Dataset (WBCD),  acquired from the repository of UCI Machine learning, is a benchmark dataset. The dataset is distributed over 37.25\% cancerous samples and 62.75\% non-cancerous samples.
 
 ## Predictive Modelling
+
+This study's primary aim is binary classification of the given samples of cell nuclei as benign or malignant.
 
 The six models used are
 
@@ -107,7 +114,11 @@ The six models used are
 
 ## Evaluation of Model Performance
 
-Since the dataset is small, we again use both -
+Considering the size of the dataset, we implemented cross validation on 15 splits. 
+Grid search was implemented to get the best set of hyperparameters. 
+Accuracy,  Roc-Auc score, Mean Squared Error were calculated based on the best parameters. 
+
+Since the dataset is small, we use both -
 
 - A non-stratified split
 - A stratified split
@@ -116,11 +127,3 @@ This is to ensure that within each fold the number of positive and negative exam
 
 ## Model Results
 
-| Model          | Stratified F-1 Score | Non-Stratified F-1 Score |
-| -------------- | -------------------- | ------------------------ |
-| SVM            | 98.28%               | 98.31%                   |
-| Random Forest  | 97.68%               | 97.61%                   |
-| AdaBoost       | 98.01%               | 98.17%                   |
-| Neural Network | 98.16%               | 98.27%                   |
-
-## Conclusions
