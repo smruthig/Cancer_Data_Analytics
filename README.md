@@ -67,7 +67,7 @@ git clone https://github.com/smruthig/Cancer_Data_Analytics
 2. Classification models can be trained using the classifier.py
 
 ```
-python3 classifier.py [-c number of splits -n normalize boolean -s standardize boolean -pca n_components]
+python3 classifier.py [-c number of splits -n True or False -s True or False -pca n_components]
 ```
 
 3. In order to try out all preprocessing pipelines on the classifier, can use the bash script.
@@ -90,12 +90,14 @@ python3 neuralnetwork.py
 
 6. Run any notebook by executing all the code cells.
 
-## About 
+## About
+
 Breast cancer is a prevalent incursive cancer among women. It is one among the primary causes of death related to cancer,
 which can be classified as Malignant or Benign. Breast cancer diagnosis is time consuming and due to its gravity, it is imperative to design a solution to automate the process of identification of the same in its early stages so that it can be treated efficiently. Breast Cancer prediction aims at extracting features from the given samples and predicting it as Benign or Malignant. The dataset chosen is extracted from the Wisconsin Breast Cancer Dataset. This implementation compares six basic models namely, Logistic Regression, SVC, AdaBoost, Neural Network Nearest Neighbours and Random Forest through performance metrics like, F1-score and F1-stratified score. The results reveal that the highest performing model for this problem statement is Logistic Regression with an F1-score of 0.9788 and F1-stratified score of 0.9822.
 
 ## Dataset
-The dataset that has been used in our project is The Wisconsin Breast Cancer Dataset (WBCD),  acquired from the repository of UCI Machine learning, is a benchmark dataset. The dataset is distributed over 37.25\% cancerous samples and 62.75\% non-cancerous samples.
+
+The dataset that has been used in our project is The Wisconsin Breast Cancer Dataset (WBCD), acquired from the repository of UCI Machine learning, is a benchmark dataset. The dataset is distributed over 37.25\% cancerous samples and 62.75\% non-cancerous samples.
 The Wisconsin Breast cancer Dataset contains 569 instances and 32 features that provide accurate information regarding the
 diagnosis of breast cancer. The columns of the dataset represent the features of the cell nuclei found in the digitised image of fine needle aspirates (FNA) of breast mass.
 
@@ -104,9 +106,9 @@ diagnosis of breast cancer. The columns of the dataset represent the features of
 This study's primary aim is binary classification of the given samples of cell nuclei as benign or malignant.
 
 Grid Search was performed on all models to find out the best parameters, with various combinations of preprocessing.
-PCA was performed to reduce the dimensionality of the dataset. 
-Various preprocessing combinations were tried out with every model to determine the best results. 
-Logistic Regression with preprocessing as standardization and PCA gave the best results with F1 score as 98% on the dataset. 
+PCA was performed to reduce the dimensionality of the dataset.
+Various preprocessing combinations were tried out with every model to determine the best results.
+Logistic Regression with preprocessing as standardization and PCA gave the best results with F1 score as 98% on the dataset.
 
 The six models used are
 
@@ -119,9 +121,9 @@ The six models used are
 
 ## Evaluation of Model Performance
 
-Considering the size of the dataset, we implemented cross validation on 15 splits. 
-Grid search was implemented to get the best set of hyperparameters. 
-Accuracy,  Roc-Auc score, Mean Squared Error were calculated based on the best parameters. 
+Considering the size of the dataset, we implemented cross validation on 15 splits.
+Grid search was implemented to get the best set of hyperparameters.
+Accuracy, Roc-Auc score, Mean Squared Error were calculated based on the best parameters.
 
 Since the dataset is small, we use both -
 
@@ -131,8 +133,9 @@ Since the dataset is small, we use both -
 This is to ensure that within each fold the number of positive and negative examples are equal. We measure our classifier’s performance across each split and finally take the mean of the performance achieved.
 
 ## Model Results
+
 |                      | Accuracy | F1 score | RocAucScore | MSE      |
-|----------------------|----------|----------|-------------|----------|
+| -------------------- | -------- | -------- | ----------- | -------- |
 | Logisitic Regression | 0.982456 | 0.974359 | 0.980513    | 0.132453 |
 | SVC                  | 0.991228 | 0.987342 | 0.9875      | 0.093689 |
 | Adaboost             | 0.964912 | 0.95     | 0.956565    | 0.187317 |
