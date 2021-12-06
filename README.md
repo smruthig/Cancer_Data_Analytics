@@ -17,7 +17,7 @@ The Video Presentation can be viewed [here](https://drive.google.com/file/d/1YQ_
 ## Directory Structure
 
 ```
-kepler-exoplanet-analysis
+Cancer Data Analytics
 ├── data
     ├── WBCD.xls
     ├── train.csv
